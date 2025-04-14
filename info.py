@@ -61,8 +61,8 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'mr.yogiraaj@ibl')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ybawaskar1987:bBpiCuWZ5RLKuuzg@mzfilestore.ah4tr.mongodb.net/?retryWrites=true&w=majority&appName=mzfilestore")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yogedrasama:D8oNvWFxBws2et6W@cluster0.5m2w6n8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ybawaskar1987:bBpiCuWZ5RLKuuzg@mzfilestore.ah4tr.mongodb.net/?retryWrites=true&w=majority&appName=mzfilestore")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mzfilestore")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mz_files')
 
