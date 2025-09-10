@@ -86,7 +86,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_open_mdiskshor
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '3b623c80e2c2534a5eae0bae35777c4c1aedd154')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_mdiskshortner/10')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
